@@ -29,5 +29,5 @@
 
 // practice addEventListener
 const abc = document.querySelector("#red").addEventListener("click", function() {
-    document.querySelector("#red").style.background = "blue";
+    document.getElementById("#red").style
 })
