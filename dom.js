@@ -25,9 +25,15 @@
 
 // document.querySelector("#red").classList.remove("xyz");
 // let abc = document.querySelector("#red").classList;
+// document.querySelector("#red").classList.remove("xyz")
+// const a = document.querySelector("#red").classList
+const a = document.querySelector(".item");
+const b = a.closest(".para")
+console.log(b)
+
 // console.log(abc)
 
 // practice addEventListener
-const abc = document.querySelector("#red").addEventListener("click", function() {
-    document.getElementById("#red").style
-})
+// const abc = document.querySelector("#red").addEventListener("click", function() {
+//     document.getElementById("#red").style
+// })
