@@ -27,9 +27,9 @@
 // let abc = document.querySelector("#red").classList;
 // document.querySelector("#red").classList.remove("xyz")
 // const a = document.querySelector("#red").classList
-const a = document.querySelector(".item");
-const b = a.closest(".para")
-console.log(b)
+// const a = document.querySelector(".item");
+// const b = a.closest(".para")
+// console.log(b)
 
 // console.log(abc)
 
@@ -37,3 +37,37 @@ console.log(b)
 // const abc = document.querySelector("#red").addEventListener("click", function() {
 //     document.getElementById("#red").style
 // })
+
+// practice createElement,createTextNode,createComment.
+// const h1Element = document.createElement("h1");
+// const text = document.createTextNode("hello sizan")
+// const abc = h1Element.appendChild(text)
+// const p = document.getElementById("para")
+// const s = document.querySelector(".ull");
+// const ans = s.insertBefore(p, s)
+// const ans = ulls.appendChild(h1Element)
+// const final = s.insertBefore(abc, s.children[0])
+// const ans = document.createTextNode("hello world");
+// const newComment = document.createComment("hello world");
+// console.log(final)
+
+// const p = document.querySelector(".abc");
+// const result = p.innerHTML;
+// console.log(result)
+
+// let liElement = document.createElement("li");
+// let textElement = document.createTextNode("hello ms sizan");
+// liElement.appendChild(textElement);
+// console.log(liElement);
+
+// let target = document.querySelector(".ull");
+// const item = target.children[1];
+// target.removeChild(item)
+// console.log(item)
+
+// practice cloneNode
+// const abc = document.getElementById("sm");
+// const xyz = abc.cloneNode(true);
+// const copy = document.querySelector(".ull");
+// const result = copy.insertBefore(xyz, copy.children[1])
+// console.log(result)
