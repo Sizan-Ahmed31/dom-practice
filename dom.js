@@ -71,3 +71,20 @@
 // const copy = document.querySelector(".ull");
 // const result = copy.insertBefore(xyz, copy.children[1])
 // console.log(result)
+
+// mouse events
+
+// const target = document.getElementById("red").addEventListener("contextmenu", function(e) {
+//     console.log(e.type)
+// })
+// let one = document.getElementById("first-name").addEventListener('focus', fname);
+
+// let two = document.getElementById("first-name").addEventListener('blur', cname);
+
+function fname(e) {
+    e.style.background = 'red';
+}
+
+function cname(f) {
+    f.style.background = '';
+}
