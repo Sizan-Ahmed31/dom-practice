@@ -81,10 +81,37 @@
 
 // let two = document.getElementById("first-name").addEventListener('blur', cname);
 
-function fname(e) {
-    e.style.background = 'red';
-}
+// function fname(e) {
+//     e.style.background = 'red';
+// }
 
-function cname(f) {
-    f.style.background = '';
-}
+// function cname(f) {
+//     f.style.background = '';
+// }
+
+// practice change event
+
+// let target = document.getElementById("first-name").addEventListener('select', abc);
+
+// function abc() {
+//     console.log('data is select')
+// }
+
+// let abc = document.getElementById("first-name").addEventListener('invalid', xyz);
+
+// function xyz() {
+
+//     alert("this value are invalid")
+
+// }
+
+// setInterval(anim, 1000);
+
+
+// c = 0;
+// function anim() {  
+//     let plus = c += 10
+//     let b = document.getElementById("red");
+//     b.style.marginLeft = plus + 'px'
+
+// }
