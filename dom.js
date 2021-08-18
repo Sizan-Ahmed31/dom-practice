@@ -115,3 +115,15 @@
 //     b.style.marginLeft = plus + 'px'
 
 // }
+
+// let x = new String("John");
+// let y = new String("John");
+
+// console.log(x === y)
+// console.log(x == y)
+
+// console.log(typeof y)
+// console.log(typeof x)
+
+// let text = "HELLO WORLD";
+// console.log(text.split(""))
