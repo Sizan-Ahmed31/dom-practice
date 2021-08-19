@@ -127,3 +127,7 @@
 
 // let text = "HELLO WORLD";
 // console.log(text.split(""))
+
+let num1 = 50;
+
+console.log(typeof num1.toString(8))
