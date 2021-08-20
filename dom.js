@@ -128,6 +128,37 @@
 // let text = "HELLO WORLD";
 // console.log(text.split(""))
 
-let num1 = 50;
+// let num1 = 50;
 
-console.log(typeof num1.toString(8))
+// console.log(typeof num1.toString(8))
+
+// let x = "100";
+// console.log(typeof Number(x))
+
+// let x = 123;
+// console.log(typeof x.toString());
+
+// const numbers = [4, 9, 16, 25, 29];
+// let first = numbers.find(myFunction);
+
+// function myFunction(value) {
+//   console.log(value > 18);
+// }
+
+// const a = ["i", "love", "programming"];
+// const result = a.map((el) => {
+
+//     if(el === "programming"){
+//          return el + "!"
+//     }else{
+//        return el
+//     }
+
+
+// })
+// console.log(result)
+
+
+const a = ["i", "love", "programming"];
+const result = a.filter((el) => el.includes("mm") ? "programming" : '');
+console.log(result)
