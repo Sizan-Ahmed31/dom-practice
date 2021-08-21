@@ -159,6 +159,11 @@
 // console.log(result)
 
 
-const a = ["i", "love", "programming"];
-const result = a.filter((el) => el.includes("mm") ? "programming" : '');
-console.log(result)
+// const a = ["i", "love", "programming"];
+// const result = a.filter((el) => el.includes("mm") ? "programming" : '');
+// console.log(result)
+
+// const a = ["i", "love", "programming"];
+// const x = a.map(el => {
+//     console.log(el.length)
+// })
